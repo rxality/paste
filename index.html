@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>rx.paste</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="root/images/favicon.png">
+    <link rel="stylesheet" href="root/css/navbar.css">
+    <link rel="stylesheet" href="root/css/main.css">
+    <link rel="stylesheet" href="root/css/codebox.css">
+</head>
+
+<body>
+
+    <nav class="navbar-container 5xiXq" id="navbar-5xiXq">
+        <ul class="navbar-container items-a4bMG" id="navbar-items-a4bMG">
+            <li class="navbar-item"><a href="#" onclick="location.reload()">| New |</a></li>
+            <li class="navbar-item"><a id="save-1Y5dVO" href="#" onclick="saveText()">Save |</a></li>
+
+
+            <div class="dropdown-gN4E8w">
+                <button class="dropdown-button-QhORXW">File Extension |</button>
+                <div class="dropdown-content" id="dropdown-content-RgiYlW">
+                    <a class="dropdown-content-item" href="#" onclick="textFileExtension('.py')">Python</a>
+                    <a class="dropdown-content-item" href="#" onclick="textFileExtension('.js')">Javascript</a>
+                </div>
+            </div>
+        </ul>
+    </nav>
+
+    <p>
+        <textarea id='lineCounter-HU1WEJ' wrap='soft' readonly>1.</textarea>
+        <textarea id='codeEditor-g2K2Gt' wrap='off'></textarea>
+    </p>
+
+    <script src="root/js/codeBox.js"></script>
+    <script src="root/js/saveText.js"></script>
+</body>
+
+</html>

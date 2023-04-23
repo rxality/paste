@@ -1,0 +1,43 @@
+#codeEditor-g2K2Gt,
+#lineCounter-HU1WEJ {
+    font-family: lucida console, courier new, courier, monospace;
+    margin: 0;
+    padding: 10px 0;
+    height: 95vh;
+    border-radius: 0;
+    resize: none;
+    font-size: 16px;
+    line-height: 1.2;
+    outline: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#lineCounter-HU1WEJ:focus-visible,
+#codeEditor-g2K2Gt:focus-visible {
+    outline: none;
+}
+
+#lineCounter-HU1WEJ {
+    display: flex;
+    border-color: transparent;
+    overflow-y: hidden;
+    text-align: right;
+    box-shadow: none;
+    color: #707070;
+    background-color: #d8d8d8;
+    position: absolute;
+    width: 3.5rem;
+    background-color: #3E3D32;
+    border-color: #3E3D32;
+    color: #928869;
+}
+
+#codeEditor-g2K2Gt {
+    padding-left: calc(3.5rem + 5px);
+    width: 100%;
+    background-color: #272822;
+    border-color: #272822;
+    color: #ffffff;
+}
